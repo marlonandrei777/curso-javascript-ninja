@@ -45,7 +45,7 @@ function divisao() {
   return y / x;
 }
 divisao(2,2);
-4
+1
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 divisao(10,2);
