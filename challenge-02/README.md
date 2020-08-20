@@ -93,7 +93,7 @@ function newFunction(x, y, z) {
   } else if (x === undefined && y === undefined && z === undefined) {
     return false;
   } else {
-  return null;
+    return null;
   }
 }
 
