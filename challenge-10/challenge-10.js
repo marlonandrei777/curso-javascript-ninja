@@ -99,8 +99,8 @@ deve ser a frase:
 Essa função mostrará a mensagem da operação que criaremos mais abaixo.
 */
 
-function showOperationMessage (operator, x, y) {
-    return 'A operação ' + x + ' ' + operator + ' ' + y + ' =';
+function showOperationMessage (operator, number1, number2) {
+    return 'A operação ' + number1 + ' ' + operator + ' ' + number2 + ' =';
 }  
 
 /*
@@ -121,8 +121,8 @@ PASSO 1:
 "operationSignal", sem valor por enquanto.
 */
 
-var x = 0;
-var y = 0;
+var number1 = 0;
+var number2 = 0;
 var operationSignal;  
 
 /*
@@ -213,8 +213,8 @@ operationSignal = 'ijeifjiejfi';
 var invalid = calculator(operationSignal);  
  
 if (invalid) {
-    number1 = 10;
-    number2 = 11;
+    number1 = 2;
+    number2 = 2;
     console.log(showOperationMessage(operationSignal, number1, number2), invalid(number1, number2));
   } else {
     console.log(showErrorMessage(operationSignal));
