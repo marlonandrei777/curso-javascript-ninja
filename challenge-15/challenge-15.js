@@ -85,3 +85,4 @@ console.log( '\nNova idade das pessoas:' );
 console.log(marlon.getFullName() + ' a gora tem ' + marlon.addAge(1).getAge() + ' anos.');
 console.log(eve.getFullName() + ' a gora tem ' + eve.addAge(1).getAge() + ' anos.');
 console.log(rafa.getFullName() + ' a gora tem ' + rafa.addAge(1).getAge() + ' anos.');
+})();  
